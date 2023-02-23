@@ -1,11 +1,59 @@
 ---
-title: "website-quarto"
+title: "Eric R. Scott"
+about: 
+  template: trestles
+  image: eric_scott.JPG
+  image-shape: round
+  image-width: 15em
+  links:
+    - icon: email
+      text: e-mail
+      href: mailto:ericrscott@arizona.edu
+    - icon: github
+      text: GitHub
+      href: https://github.com/Aariq
+    - icon: mastodon
+      text: Mastodon
+      href: https://fosstodon.org/@LeafyEricScott
+    - icon: scholar
+      text: Google Scholar
+      href: https://scholar.google.co.uk/citations?user=kPEDEO0AAAAJ
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/eric-r-scott-phd/
 ---
 
-This is a Quarto website.
+# Biography
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I'm a Scientific Programmer & Educator at [The University of Arizona](https://datascience.cals.arizona.edu/).
+I collaborate with researchers in the College of Agriculture and Life Sciences on statistics, data wrangling, and data visualization.
+The workshops I teach are on a variety or beginner and intermediate data science topics, typically in R.
+My background is in plant chemical ecology, plant--insect interactions, and plant demography.
+I'm also a huge tea geek and occasionally do tea science communication.
 
-```{r}
-1 + 1
-```
+::: columns
+::: column
+### Interests
+
+-   Plant ecology
+
+-   Statistics and programming in R
+
+-   Reproducible research practices
+
+-   Tea
+:::
+
+::: column
+### Education
+
+- PhD in Biology, 2020
+Tufts University
+
+- MS in Ecology, Evolution, and Conservation Biology, 2010
+University of Illinois at Urbana-Champaign
+
+- BA in Biology, 2006
+Whitman College
+:::
+:::
