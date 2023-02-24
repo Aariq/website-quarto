@@ -3,18 +3,8 @@ title: "Oh for {fs}, are you kidding me, base R?"
 author: Eric R. Scott
 date: '2023-01-05'
 # slug: ["2023-01-05-list-files"]
-# categories:
-#   - Blog
-# tags:
-#   - R
-# summary: ''
-# lastmod: '2021-10-27T16:59:54-04:00'
-# featured: no
-# image:
-#   caption: ''
-#   focal_point: ''
-#   preview_only: no
-# projects: []
+categories:
+  - r
 ---
 
 This is a cautionary tale about the base R function `list.files()`.
