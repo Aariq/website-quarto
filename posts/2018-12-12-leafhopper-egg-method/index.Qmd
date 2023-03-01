@@ -1,6 +1,6 @@
 ---
-title: Finding Cryptic Insect Eggs With Fluorescence
-author: Eric R. Scott
+title: "Finding Cryptic Insect Eggs With Fluorescence"
+author: "Eric R. Scott"
 date: '2018-12-12'
 # slug: leafhopper-egg-method
 categories:
@@ -9,10 +9,11 @@ categories:
   - leafhoppers
   - tea
   
-image: featured.png
+image: "featured.png"
 ---
 
-```{r include=FALSE}
+```{r}
+#| include: false
 library(here)
 library(knitr)
 ```
@@ -22,32 +23,19 @@ What the audience liked most, I think, were my methods for finding leafhopper eg
 You see, leafhoppers (including at least the tea green leafhopper and the small green leafhopper, *Empoasca vitis*) lay their eggs *inside* plant tissues, making them impossible to find with the naked eye.
 But, you can take advantage of the fluorescent properties of leafhopper eggs and plants to make them more visible.
 
-```{r echo=FALSE, out.width="70%", fig.cap="Students from TRI CAAS looking for leafhopper eggs in tea shoots"}
-include_graphics("learning-SLEDA.jpeg")
-```
+![Students from TRI CAAS looking for leafhopper eggs in tea shoots](learning-SLEDA.jpeg){fig-align="center" width="587"}
 
 It turns out that under blue light, leafhopper eggs fluoresce bright green while the chlorophyll in plants fluoresces red.
 By using blue light to create this fluorescence and blocking the blue light coming to your eyes with a filter, you can easily spot the eggs even though they are under the epidermis of the tea stems.
 
-```{r echo=FALSE, fig.cap="testing", out.width="50%"}
-htmltools::tags$video(autoplay = TRUE,
-                      controls = TRUE,
-                      loop = TRUE,
-                      muted = TRUE,
-                      src = "SLEDA.mp4",
-                      width = 400,
-                      height = 400,
-                      figcaption = "testing")
-```
+{{< video SLEDA.mp4 >}}
 
 What you're seeing above is video from a smart phone with the lens covered by a pair of orange goggles.
 I move the beam of a blue LED flashlight (which you can't really see because of the orange filter) toward the center of the frame, where you see a green dot appear on the tea stem.
 This is a leafhopper egg.
 Then I remove the orange goggles so you can see what it looks like without them---totally washed out by blue light.
 
-```{r echo=FALSE, out.width="70%", fig.cap="A tea shoot lit by ambient light (left) and by blue light, filtered through orange goggles (right).  The leafhopper egg is the small green dot on the stem in the right panel."}
-include_graphics("SLEDA-in-lab.png")
-```
+![A tea shoot lit by ambient light (left) and by blue light, filtered through orange goggles (right). The leafhopper egg is the small green dot on the stem in the right panel.](SLEDA-in-lab.png){fig-align="center" width="611"}
 
 This method is modified from a [2004 paper by Herrmann and Böll](http://link.springer.com/10.1007/BF03356146) that was written before bright blue LEDs were widely available, and calls for the use of full-spectrum white light from a halogen bulb passed through a filter.
 Now, blue LED flashlights are cheap and widely available, providing a much more portable solution for field sampling.
