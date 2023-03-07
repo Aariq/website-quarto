@@ -2,7 +2,6 @@
 title: "Oh for {fs}, are you kidding me, base R?"
 author: Eric R. Scott
 date: '2023-01-05'
-# slug: ["2023-01-05-list-files"]
 categories:
   - r
 ---
