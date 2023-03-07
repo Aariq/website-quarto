@@ -7,3 +7,18 @@ listing:
   categories: true
   feed: true
 ---
+
+```{r}
+#write _redirects so old links still work.  From: https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/
+posts <- list.dirs(
+  here::here("posts"),
+  full.names = FALSE,
+  recursive = FALSE
+)
+#get slugs from dir names
+slugs <- gsub("^\\d{4}-\\d{2}-\\d{2}-", "", posts)
+
+redirects <- paste0("/post/", slugs, " ", "/posts/", posts)
+
+writeLines(redirects, here::here("_site", "_redirects"))
+```
