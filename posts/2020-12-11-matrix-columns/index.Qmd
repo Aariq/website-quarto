@@ -89,13 +89,11 @@ Instead you get an empty viewer box like so.
 
 You can turn off paged printing for a single code chunk with the `paged.print = FALSE` chunk option, and you'll see something more like this:
 
-
-```{{r}}
+``` {{r}}
 #| paged.print: false
 tbl <- tibble(x = letters[1:10], mat_col = my_matrix)
 tbl
-``` 
-
+```
 
 ```{r echo=FALSE}
 tbl
