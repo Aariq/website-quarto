@@ -1,9 +1,34 @@
 ---
 title: "Publications"
-listing:
-  contents: publications
-  sort: "date desc"
-  type: default
-  categories: false
-  feed: true
 ---
+
+```{r}
+#| echo: false
+#| output: asis
+library(httr2)
+req <-
+  request("https://api.zotero.org") |>
+  req_url_query(
+    v = 3,
+    include = "bib",
+    sort = "date",
+    style = "oecologia",
+    itemType = "-attachment || note"
+  ) |>
+  req_headers(`Zotero-API-Key` = Sys.getenv("ZOTERO_API_KEY")) |>
+  req_url_path("users", "6720834", "publications", "items") |> 
+  req_retry()
+
+resp <- 
+  req |> 
+  req_perform()
+
+resp %>% 
+  resp_body_json() %>% 
+  purrr::map("bib") %>% 
+  unlist() %>% 
+  cat()
+```
+
+::: {#refs}
+:::
