@@ -4,6 +4,7 @@ project:
 website:
   title: "website-quarto"
   site-url: https://www.ericrscott.com/
+  favicon: icon.png
   navbar:
     title: false
     logo: "icon-192.png"
