@@ -6,7 +6,7 @@ about:
   image-shape: round
   image-width: 15em
   links:
-    - icon: email
+    - icon: envelope
       text: e-mail
       href: mailto:ericrscott@arizona.edu
     - icon: github
@@ -15,9 +15,6 @@ about:
     - icon: mastodon
       text: Mastodon
       href: https://fosstodon.org/@LeafyEricScott
-    - icon: scholar
-      text: Google Scholar
-      href: https://scholar.google.co.uk/citations?user=kPEDEO0AAAAJ
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/eric-r-scott-phd/
@@ -47,13 +44,10 @@ I'm also a huge tea geek and occasionally do tea science communication.
 ::: column
 ### Education
 
-- PhD in Biology, 2020
-Tufts University
+-   PhD in Biology, 2020 Tufts University
 
-- MS in Ecology, Evolution, and Conservation Biology, 2010
-University of Illinois at Urbana-Champaign
+-   MS in Ecology, Evolution, and Conservation Biology, 2010 University of Illinois at Urbana-Champaign
 
-- BA in Biology, 2006
-Whitman College
+-   BA in Biology, 2006 Whitman College
 :::
 :::
