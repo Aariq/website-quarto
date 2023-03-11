@@ -1,0 +1,32 @@
+---
+title: "Teaching"
+---
+
+I've been teaching biology ever since I was 12 when I became an interpretive guide at the [Lindsay Wildlife Experience](https://lindsaywildlife.org/) in my home town of Walnut Creek, CA. Since then I've taught science of all sorts to all ages in a variety of formats.
+
+## Selected Teaching Experience:
+
+-   **Ecological Statistics and Data**.
+    *Spring 2020*.
+    I took over this course during my last semester as a PhD student as the instructor of record.
+    I reorganized the syllabus and created new content to teach genearlized linear models and mixed effects models with ecological applications using R.
+
+-   **Biostatstics in R**.
+    *Fall 2016--2018*.
+    Recitation section for BIO132 at Tufts University.
+    In collaboration with Natalie Kerr in 2016 and Avalon Owens in 2018, we designed and taught this new course.
+    Previously, BIO132 used SPSS rather than R and did not have a required recitation.
+    Course materials available [here](https://github.com/Aariq/biotstatistics-recitation-2018).
+
+-   **Organisms and Populations**.
+    *Spring 2015*.
+    Lab section for BIO0014 at Tufts University.
+    I served as a graduate TA for a lab section of this course in a year when the course was being entirely redesigned.
+    I actively participated in designing course materials and lab activities in addition to teaching my own lab section.
+
+-   **Introductory Biology**.
+    *2011 -- 2014*.
+    I taught a guaranteed transfer credit lecture and lab course at Front Range Community College in Fort Collins, CO where I was an instructor.
+    My students came from diverse age, socioeconomic, and learning backgrounds.
+    I designed lectures and assessment materials and engaged in revising lab exercises and course materials.
+    I attended professional development workshops including an especially helpful one on teaching veterans.

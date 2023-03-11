@@ -13,8 +13,14 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: teaching.qmd
+        text: Teaching
+      - href: publications.qmd
+        text: Publications
       - href: blog.qmd
         text: Blog
+      - href: Eric Scott cv.pdf
+        text: CV
     right:
       - icon: rss
         href: blog.xml
