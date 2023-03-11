@@ -1,7 +1,7 @@
 ---
 title: "Blog"
 listing:
-  contents: post
+  contents: posts
   sort: "date desc"
   type: default
   categories: true
@@ -9,6 +9,8 @@ listing:
 ---
 
 ```{r}
+#| include: false
+
 #write _redirects so old links still work.  From: https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/
 posts <- list.dirs(
   here::here("posts"),
