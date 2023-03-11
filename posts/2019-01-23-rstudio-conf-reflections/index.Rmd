@@ -1,5 +1,5 @@
 ---
-title: RStudio::conf reflections
+title: "RStudio::conf reflections"
 author: Eric R. Scott
 date: '2019-01-23'
 # slug: rstudio-conf-reflections
