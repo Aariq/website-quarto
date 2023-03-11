@@ -13,4 +13,4 @@ Sometimes you really need to take a look at what a function is doing behind the 
 Using the `debug()` function with R and R Studio is a great way to do this, but it can be really intimidating.
 I made a short demo to show you how to get started with using `debug()` to peer into the inner workings of R functions.
 
-{{< youtube x7BdImJ6loA >}}
+{{< video https://www.youtube.com/embed/x7BdImJ6loA >}}

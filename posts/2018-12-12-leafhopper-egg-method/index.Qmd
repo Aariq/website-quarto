@@ -28,7 +28,7 @@ But, you can take advantage of the fluorescent properties of leafhopper eggs and
 It turns out that under blue light, leafhopper eggs fluoresce bright green while the chlorophyll in plants fluoresces red.
 By using blue light to create this fluorescence and blocking the blue light coming to your eyes with a filter, you can easily spot the eggs even though they are under the epidermis of the tea stems.
 
-{{< video SLEDA.mp4 >}}
+![](SLEDA.mp4)
 
 What you're seeing above is video from a smart phone with the lens covered by a pair of orange goggles.
 I move the beam of a blue LED flashlight (which you can't really see because of the orange filter) toward the center of the frame, where you see a green dot appear on the tea stem.
