@@ -1,18 +1,23 @@
 ---
 title: "Publications"
+format:
+  html:
+    theme: 
+      - custom.scss
 ---
 
 ```{r}
 #| echo: false
 #| output: asis
 library(httr2)
+library(stringr)
 req <-
   request("https://api.zotero.org") |>
   req_url_query(
     v = 3,
     include = "bib",
     sort = "date",
-    style = "oecologia",
+    style = "journal-of-ecology",
     itemType = "-attachment || note"
   ) |>
   req_headers(`Zotero-API-Key` = Sys.getenv("ZOTERO_API_KEY")) |>
@@ -22,11 +27,17 @@ req <-
 resp <- 
   req |> 
   req_perform()
+# pattern to match URLs
+url_pattern <- "(https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=\\[\\];]*))"
 
-resp %>% 
-  resp_body_json() %>% 
-  purrr::map("bib") %>% 
-  unlist() %>% 
+resp |> 
+  resp_body_json() |>  
+  purrr::map("bib") |> 
+  unlist() |> 
+  # surround URLs with <> so they are actually links in markdown
+  str_replace(url_pattern, "<\\1>") |> 
+  # Bold my name 
+  str_replace("(Scott, E\\. R\\.)", '<b>\\1</b>') |> 
   cat()
 ```
 
