@@ -1,5 +1,8 @@
 ---
 title: "Eric R. Scott"
+format:
+  html:
+    page-layout: full
 about: 
   template: trestles
   image: eric_scott.JPG
