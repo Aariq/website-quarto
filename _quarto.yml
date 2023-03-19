@@ -19,6 +19,8 @@ website:
         text: Teaching
       - href: publications.qmd
         text: Publications
+      - href: projects.qmd
+        text: Projects
       - href: blog.qmd
         text: Blog
       - href: Eric Scott cv.pdf

@@ -8,6 +8,8 @@ listing:
   feed: true
 ---
 
+For older, tea-related blog posts, check out my page on [teageek.net](https://teageek.net/blog/author/aariqscott/)
+
 ```{r}
 #| include: false
 
