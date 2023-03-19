@@ -6,8 +6,7 @@ date: '2019-03-21'
 categories: 
   - data-science
   - multivariate-statistics
-image: featured.png
-# math: yes
+image: "featured.png"
 ---
 
 ```{r include=FALSE}
