@@ -1,0 +1,14 @@
+{
+  "hash": "6ce75533a959e3b1648712760dd29e53",
+  "result": {
+    "markdown": "---\ntitle: \"Blog\"\nlisting:\n  contents: posts\n  sort: \"date desc\"\n  type: default\n  categories: true\n  feed: true\n---\n\n\nFor older, tea-related blog posts, check out my page on [teageek.net](https://teageek.net/blog/author/aariqscott/)\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
