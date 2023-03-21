@@ -15,6 +15,11 @@
 }
 
 // Make logo larger
-.navbar-brand {
-
+.navbar-logo {
+  max-height: 40px;
 }
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+// The above works when I change it in the inspect window of the browser, but doesn't work here! Maybe I'm getting the selectors wrong?
