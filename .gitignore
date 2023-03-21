@@ -5,6 +5,5 @@
 .Renviron
 
 /.quarto/
+/_site/
 
-_site/
-_freeze/

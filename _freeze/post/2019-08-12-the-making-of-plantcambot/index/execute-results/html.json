@@ -1,0 +1,14 @@
+{
+  "hash": "2f4b33e0bb59e377985328033c225a5a",
+  "result": {
+    "markdown": "---\ntitle: The Making of PlantCamBot\nauthor: Eric R. Scott\ndate: '2019-08-12'\n# slug: the-making-of-plantcambot\ncategories:\n  - python\ndraft: yes\n---\n\n\nIt all started when my officemate [Avalon](https://twitter.com/avalonceleste) showed me a simple timelapse of an office plant.\n\n![\"Not Avalon's plant, but just check it out!\"]()\n\nIt was just a test to figure out if her Raspberry Pi timelapse camera was working but it got me thinking.\nPlants do amazing behaviors, and we just can't see them at the time scale we exist at.\nBut what if we could glimpse plant behaviors at their time scale using time-lapse video?\nNow of course I'm not the first person to realize this, but I think maybe I'm the first person to make the idea into a Twitter bot!\n\n# Step 1: Set up the Raspberry Pi\n\nI followed a [tutorial](%22https://www.jeffgeerling.com/blog/2017/raspberry-pi-zero-w-headless-time-lapse-camera%22) that Avalon sent me to get to the point where I could take multiple images with a Raspbery Pi and stitch them together into an animated gif.\nThis tutorial provided a Python script and a `config.yml` file that allows you to set whitebalance and ISO to a constant so the frames of the timelapse don't change dramatically in color if, say, the lighting in the room changes.\n\nAt first, I wasn't able to get this script to automatically create gifs...\n\nOptimizing gif creation...\n\n# Step 2: Set up Twitter Account\n\n-   make twitter account\n-   do stuff that you have to do if you wanna make a bot\n\n# Step 3: Automate tweeting of gif once completed\n\n-   or do I want it to tweet in the morning?\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

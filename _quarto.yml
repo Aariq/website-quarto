@@ -1,6 +1,7 @@
 project:
   type: website
-
+execute:
+  freeze: auto
 website:
   title: "website-quarto"
   site-url: https://www.ericrscott.com/
