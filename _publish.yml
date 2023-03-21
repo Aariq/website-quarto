@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: c45f1daa-b2aa-4e8b-8e04-3bd5305a4a62
+      url: 'https://merry-piroshki-d56896.netlify.app'
