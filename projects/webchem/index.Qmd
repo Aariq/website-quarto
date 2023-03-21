@@ -1,0 +1,14 @@
+---
+title: webchem
+abstract: An R package for accessing chemical information from the web.
+# tags:
+# - R
+# - webscraping
+# slug: webchem
+date: "2020-04-27T00:00:00Z"
+image: featured.png
+---
+
+::: {style="text-align: center;"}
+[Visit Project Site](https://docs.ropensci.org/webchem/)
+:::

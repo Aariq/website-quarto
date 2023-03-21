@@ -1,0 +1,17 @@
+---
+title: bumbl
+description: An R package for modeling bumblebee colony growth
+date: '2017-12-13'
+#slug: bumbl
+image: featured.png
+image-alt: Example output of bumbl package
+
+#tags:
+#- R
+#- modeling
+#- demography
+---
+
+The [bumbl package](https://github.com/Aariq/bumbl) implements a model for bumblebee colony growth described in Crone and Williams 2019.
+It models colony growth as having a change point at some time, tau, where the colony switches from growth and worker production to gyne production.
+The `bumbl()` function applies this model to data from multiple colonies, allowing for each colony to have it's own tau and returns the original data augmented with coefficients from the changepoint model.
