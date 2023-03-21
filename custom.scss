@@ -2,9 +2,19 @@
 
 
 /*-- scss:rules --*/
-div.csl-bib-body {
+
+// Adjust publications page appearance
+// I don't understand why this works, but you need padding-bottom in both divs
+.csl-bib-body {
   padding-bottom: 1em;
 }
-div.csl-entry {
-  line-height: 1.5;
+
+.csl-entry {
+  line-height: 1.25;
+  padding-bottom: 1em;
+}
+
+// Make logo larger
+.navbar-brand {
+
 }
