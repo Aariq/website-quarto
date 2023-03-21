@@ -6,6 +6,8 @@ categories:
   - r
 ---
 
+#  
+
 This is a cautionary tale about the base R function `list.files()`.
 When you give it a vector of paths (which you totally can do), it **re-orders** the output alphabetically.
 This screwed me over in a project I'm working on where I took file paths from a data frame, used them to `list.files()` and assumed (a sane assumption, I think) that the output would be in the same order.
