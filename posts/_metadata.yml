@@ -5,3 +5,14 @@ freeze: true
 
 # Enable banner style title blocks
 title-block-banner: true
+
+comments:
+  giscus: 
+    repo: Aariq/website-quarto
+    repo-id: "R_kgDOJAQa0g"
+    category: "Announcements"
+    category-id: "DIC_kwDOJAQa0s4CVEac"
+    mapping: "pathname"
+    reactions-enabled: true
+    loading: lazy
+    input-position: top
