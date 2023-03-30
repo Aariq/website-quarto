@@ -1,25 +1,28 @@
 /*-- scss:defaults --*/
 
-
 /*-- scss:rules --*/
 
-// Adjust publications page appearance
-// I don't understand why this works, but you need padding-bottom in both divs
+/* 
+Adjust publications page appearance
+*/
+
 .csl-bib-body {
   padding-bottom: 1em;
 }
 
 .csl-entry {
   line-height: 1.25;
-  padding-bottom: 1em;
 }
 
-// Make logo larger
+/*
+Adjust logo size
+*/
+
 .navbar-logo {
-  max-height: 40px;
+  max-height: 50px; 
 }
+
 .navbar-brand {
   padding-top: 0;
   padding-bottom: 0;
 }
-// The above works when I change it in the inspect window of the browser, but doesn't work here! Maybe I'm getting the selectors wrong?
