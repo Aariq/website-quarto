@@ -24,13 +24,15 @@ website:
         text: Projects
       - href: blog.qmd
         text: Blog
+      - href: outreach.qmd
+        text: Outreach
       - href: Eric Scott cv.pdf
         text: CV
     right:
       - icon: rss
         href: blog.xml
-  repo-url: https://github.com/Aariq/website-quarto
-  repo-actions: [edit, issue]
+  # repo-url: https://github.com/Aariq/website-quarto
+  # repo-actions: [edit, issue]
 
 format:
   html:
