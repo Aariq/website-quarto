@@ -4,6 +4,8 @@ format:
   html:
     theme: 
       - custom.scss
+execute: 
+  freeze: false
 ---
 
 ```{r}
