@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.2.0",
+    "Version": "4.2.2",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -697,11 +697,11 @@
       "Package": "chemhelper",
       "Version": "0.0.0.9000",
       "Source": "Repository",
-      "Repository": "https://aariq.r-universe.dev",
+      "RemoteType": "repository",
       "RemoteUrl": "https://github.com/Aariq/chemhelper",
       "RemoteRef": "HEAD",
       "RemoteSha": "e51054c1856e3e446419d58c0351e391299e94e3",
-      "Hash": "5794032d67c220cc8ba16b4842f9fbbb",
+      "Hash": "d208425581ad52e68a8ae87dbd3286fa",
       "Requirements": [
         "MASS",
         "broom",
@@ -1563,6 +1563,24 @@
         "openssl"
       ]
     },
+    "httr2": {
+      "Package": "httr2",
+      "Version": "0.2.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "5c09fe33064978ede54de42309c8b532",
+      "Requirements": [
+        "R6",
+        "cli",
+        "curl",
+        "glue",
+        "magrittr",
+        "openssl",
+        "rappdirs",
+        "rlang",
+        "withr"
+      ]
+    },
     "ids": {
       "Package": "ids",
       "Version": "1.0.1",
@@ -2289,10 +2307,10 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "0.16.0",
-      "Source": "Repository",
+      "Version": "0.17.3",
+      "OS_type": NA,
       "Repository": "CRAN",
-      "Hash": "c9e8442ab69bc21c9697ecf856c1e6c7",
+      "Source": "Repository",
       "Requirements": []
     },
     "reprex": {
