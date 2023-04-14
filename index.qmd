@@ -27,7 +27,7 @@ about:
 
 I'm a Scientific Programmer & Educator at [The University of Arizona](https://datascience.cals.arizona.edu/).
 I collaborate with researchers in the College of Agriculture and Life Sciences on statistics, data wrangling, and data visualization.
-The workshops I teach are on a variety or beginner and intermediate data science topics, typically in R.
+The workshops I teach are on a variety of beginner and intermediate data science topics, typically in R.
 My background is in plant chemical ecology, plant--insect interactions, and plant demography.
 I'm also a huge tea geek and occasionally do tea science communication.
 
