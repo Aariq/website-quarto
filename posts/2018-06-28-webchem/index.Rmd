@@ -12,6 +12,7 @@ categories:
   - GC/MS
 # projects:
 #   - webchem
+image: featured.png
 ---
 
 ```{r message=FALSE, warning=FALSE, include=FALSE}
