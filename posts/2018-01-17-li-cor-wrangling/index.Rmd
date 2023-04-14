@@ -16,6 +16,7 @@ categories:
 # projects: ["bace-tea"]
  
 image: featured.png
+image-alt: "A graphical representation of a data wrangling workflow.  An arrow points from a licor photosynthesis meter to a text file and another arrow points from the text file to a cleaned dataset"
 ---
 
 ```{r message=FALSE, warning=FALSE, include=FALSE}
@@ -30,16 +31,14 @@ In order to keep track of which measurments go with which plants (or experimenta
 When the data are exported, you get a series of .xls files and a plain text file.
 Both of these have some problems that you'll have to deal with if you want to read the data into R and use it for statistical analysis or generating reports.
 
-```{r excel, echo=FALSE, fig.cap="Excel nightmare or text nightmare? Pick your poison.", out.width="90%"}
-include_graphics("licor_excel.png")
-```
+![Excel nightmare or text nightmare? Pick your poison.](licor_excel.png){fig-alt="On the left, a messy looking text file with xml tags taking up the top two thirds of the screen.  On the right, an excel spreadsheet with metadata in the top 7 rows, two rows of header columns, and \"remark\" rows interspersed with the actual data" fig-align="center" width="645"}
 
 Both file types create some problems for easily getting the data into R:
 
-1.  **Header information** interrupts the data table format. Fortunatly, it's mostly just information about the instrument configuration that we don't need.
+1.  **Header information** interrupts the data table format. Fortunately, it's mostly just information about the instrument configuration that we don't need.
 2.  **Untidy handling of remarks**. Instead of remarks being in their own column, they appear in the `HHMMSS` column in the .xls files and in the `Obs` column in the .txt file! And to indicate that the row is a remark, instead of giving it an observation number in `Obs`, it just says "Remark =".
 3.  **Column headers are spread over two rows**. There is a (somewhat mysterious to me) row of "in"s and "out"s under the column headers in the .xls file.
-4.  Another problem that you can't see in Fig. 1 is that I've done my **measurments in several bouts**. This produced two .xls files and a text file with header text inbetween my two sets of measurements.
+4.  Another problem that you can't see in Fig. 1 is that I've done my measurements **in several bouts**. This produced two .xls files and a text file with header text in-between my two sets of measurements.
 
 At this point I had to choose between reading in the .xls files with `read_xls()` from the `readxl` package and doing some wrangling from there, or to deal with the text file, which would surely include some regular expression headaches.
 

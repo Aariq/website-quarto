@@ -12,6 +12,7 @@ categories:
   - webscraping
 
 image: featured.png
+image-alt: "A chocolate frosted chocolate cupcake (left) vs. a chocolate chip muffin (right)"
 ---
 
 One thing I've learned from my PhD at Tufts is that I really enjoy working data wrangling, visualization, and statistics in R.
@@ -21,16 +22,16 @@ As a way to showcase my data science skills, I've been working on a side project
 Honestly, I can't even quite remember how this idea came to me, but it started in a discussion with Dr. Elizabeth Crone about why more ecologists don't use a statistical technique called [partial least squares regression](https://en.wikipedia.org/wiki/Partial_least_squares_regression).
 We wanted a fun multivariate data set that could illustrate the different conclusions you might get depending on the statistical method you use.
 Around the same time, I came across a blog post by [\@lariebyrd](https://aczane.netlify.com/2018/02/08/the-first-and-namesake-post-is-it-cake/) explaining machine learning using cake emoji.
-And that somehow led to me webscraping **every single muffin and cupcake recipe** on allrecipes.com.
+And that somehow led to me web-scraping **every single muffin and cupcake recipe** on allrecipes.com.
 
-I just finished the webscraping bit of the project this weekend.
+I just finished the web-scraping bit of the project this weekend.
 I'm not going to reproduce the code here, but rather address some of the challenges I faced, and some things I've learned so far.
 You can check out my R notebook and a .rds file of all the recipes [over on github](https://github.com/Aariq/cupcakes-vs-muffins)
 
-# Getting started on webscraping
+# Getting started on web-scraping
 
 I followed this [wonderful tutorial](https://towardsdatascience.com/web-scraping-tutorial-in-r-5e71fd107f32) from José Roberto Ayala Solares to get going.
-Necessary tools include the `tidyverse`, the `rvest` package for webscraping, and a chrome plugin called [SelectorGadget](http://selectorgadget.com/).
+Necessary tools include the `tidyverse`, the `rvest` package for web-scraping, and a chrome plugin called [SelectorGadget](http://selectorgadget.com/).
 Going through the example in the tutorial was really helpful for getting a hang of what is and isn't easy/possible.
 
 # Choosing a data source
@@ -41,10 +42,7 @@ Allrecipes.com, on the other hand, gives me the following URL: https://www.allre
 
 This is **ALL THE CUPCAKES**. From there, I played around with SelectorGadget to make sure it was going to be easy to drill down to just the links to the actual recipes, and yes, it was.
 
-```{r selector-gadget, echo=FALSE, fig.cap="SelectorGadget in action", message=FALSE, warning=FALSE}
-library(knitr)
-include_graphics("selector-gadget.png")
-```
+![SelectorGadget in action](selector-gadget.png){fig-alt="Screenshot of a recipe website with a toolbar at the bottom displaying the selector \".fixed-recipe-card_title-link\".  The title/link to the recipes are highlighted on the page." fig-align="center"}
 
 I also checked that the ingredients list of each recipe was going to be easy to scrape.
 They all have the same format, and some brief testing convinced me that I'd be able to figure out how to pull out ingredients.
@@ -59,10 +57,23 @@ So once I figured out how to pull in all the links to all the cupcake recipes, I
 After a few debugging runs, allrecipes.com stopped responding and I just kept getting error messages.
 After pulling my hair out trying to figure out how I broke my code, I realized that my IP was being blocked!
 Because of the speed of accessing the website or how many links I accessed, my IP was suspected of being a bot or something and was temporarily (*whew*) blocked.
-I turned to twitter and was reccomended an easy fix---create a custom `read_html_slow()` function that included `Sys.sleep(5)` which just makes R wait 5 seconds in between reading websites.
+I turned to twitter and was recommended an easy fix---create a custom `read_html_slow()` function that included `Sys.sleep(5)` which just makes R wait 5 seconds in between reading websites.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Make your own function with read_html followed by Sys.sleep(5) and then map using that?</p>&mdash; Sharon Machlis now at @smach@fosstodon.org (@sharon000) <a href="https://twitter.com/sharon000/status/965808697346789378?ref_src=twsrc%5Etfw">February 20, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet">
 
+<p lang="en" dir="ltr">
+
+Make your own function with read_html followed by Sys.sleep(5) and then map using that?
+
+</p>
+
+--- Sharon Machlis now at @smach\@fosstodon.org (@sharon000) <a href="https://twitter.com/sharon000/status/965808697346789378?ref_src=twsrc%5Etfw">February 20, 2018</a>
+
+</blockquote>
+
+```{=html}
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```
 ```{r message=FALSE, warning=FALSE}
 library(rvest)
 read_html_slow <- function(x, ...){
@@ -104,7 +115,7 @@ Rather than working on the whole data set, I used `sample()` on my vector of rec
 After working through a few different random subsets, I reached a point where I was happy with how my code was working.
 Only then did I read in the entire data set.
 
-# Webscraped data is messy
+# Web-scraped data is messy
 
 ## (People make weird baked goods)
 
@@ -153,7 +164,7 @@ I'll never be able to categorize all the cupcake/muffin ingredients, because peo
 
 # Conclusion
 
-Webscraping can be frustrating, but you can set yourself up for success by choosing an easily scrapable website, annotating your code as you go, and taking measures to make your code as readable as possible.
+Web-scraping can be frustrating, but you can set yourself up for success by choosing an easily scrapeable website, annotating your code as you go, and taking measures to make your code as readable as possible.
 With big, messy data, you'll likely never get it perfect, but you can use random samples of websites to help debug your code and test its effectiveness on new random samples of websites.
 
 # Next Steps

@@ -15,6 +15,7 @@ categories:
 # projects: ["climate-leafhopper-quality"]
 
 image: analyzed leaf.png
+image-alt: "A three color image of the sillouhette of a tea leaf. The background is purple, the majority of the leaf is light green, and there are small red spots on the leaf"
 ---
 
 ```{r include=FALSE}
@@ -26,10 +27,7 @@ I want to quantify the amount of leafhopper damage for each harvest.
 I was able to find several solutions for quantifying holes in leaves or even damage to leaf margins, but typical leafhopper damage is just tiny brown spots on the undersides of leaves.
 I did find some tutorials on using [ImageJ](http://imagej.net/Welcome) to analyze diseased area on leaves, but found that the leafhopper damage spots were too small and too similar in color to undamaged leaves for these tools to work reliably and be automated.
 
-```{r leaf-fig, echo=FALSE, fig.cap="Typical leafhopper damage", out.width="60%", fig.align='left'}
-include_graphics("damaged leaf.png")
-
-```
+![Typical leafhopper damage](damaged%20leaf.png){fig-alt="a scanned image of a tea leaf on a white background.  The leaf has brown spots on it." fig-align="center" width="500"}
 
 Last year I piloted a method to quantify leafhopper damage on scanned images of tea leaves with the help of a Tufts undergraduate, Maxwell Turpin.
 We ended up getting the most success using a supervised classification algorithm implemented by the [trainable WEKA segmentation](https://imagej.net/Trainable_Weka_Segmentation) plugin in [FIJI](https://fiji.sc/) (which stands for "FIJI is just Image J").
@@ -42,10 +40,7 @@ Just to clarify, my goal here is not image classification---that is, I'm not try
 In short, after selecting some pixels representative of damaged leaf, undamaged leaf, and background (regions of interest, or ROIs), the WEKA plugin trains a random forest algorithm using data from various transformations of the pixels in the ROIs.
 Then, I can apply the algorithm to other images and extract data in the form of numbers of pixels classified in each category.
 
-```{r example-result, echo=FALSE, fig.cap="example results of WEKA classification", out.width="60%"}
-include_graphics("analyzed leaf.png")
-
-```
+![Example results of WEKA classification](analyzed%20leaf.png){fig-alt="A three color image of the sillouhette of a tea leaf. The background is purple, the majority of the leaf is light green, and there are small red spots on the leaf" fig-align="center" width="500"}
 
 ## WEKA segmentation tips
 
@@ -73,9 +68,7 @@ Once we were satisfied with our classifier, we saved it and applied it to all of
 The results created by the WEKA plugin are stacks of three color images (because we used 3 classes).
 Getting numerical results turned out to be another problem.
 
-```{r screenshot, echo=FALSE, fig.cap="WEKA segmentation window with ROIs selected"}
-include_graphics("WEKA screenshot.png")
-```
+![WEKA segmentation window with ROIs selected](WEKA%20screenshot.png){fig-alt="User interface of the WEKA segmentation plugin with ROIs selected" fig-align="center"}
 
 ### Exporting results
 

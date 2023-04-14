@@ -27,9 +27,7 @@ A retention index is basically a corrected retention time---the time it took for
 While the retention time for a particular compound might vary from run to run or beetween labs, the retention **index** should be comparable.
 Therefore, they are often used to help identify compounds and [NIST](https://webbook.nist.gov/chemistry/) maintains a database of retention indeces for researchers to refer to.
 
-```{r echo=FALSE,fig.cap="An example table including literature retention indices from [Kowalsick, et al. 2014](https://doi.org/10.1016/j.chroma.2014.10.058)"}
-include_graphics("kowalsick table.png")
-```
+![An example table including literature retention indices from [Kowalsick, et al. 2014](https://doi.org/10.1016/j.chroma.2014.10.058)](kowalsick%20table.png){fig-alt="A data table containing columns for compound name, literature RI, experimental RI, Spring, Monsoon, and % Difference. Table caption reads: \"Relative tea metabolite concentrations in spring and monsoon harvests.\""}
 
 Producing such a table of literature retention indices for potentially hundreds of metabolites by hand can be really tedious!
 
@@ -50,7 +48,7 @@ CASs <- c("83-34-1", "119-36-8", "123-35-3", "19700-21-1")
 ```
 
 Load the package and take a look at the help file.
-You'll see that we need to choose what type of retention index to scrape, what polarity of column, and what kind of teperature program.
+You'll see that we need to choose what type of retention index to scrape, what polarity of column, and what kind of temperature program.
 If you browse one of the [NIST sites for a compound](https://webbook.nist.gov/cgi/cbook.cgi?ID=C78706&Units=SI&Mask=2000#Gas-Chrom), this will make more sense.
 
 ```{r eval=FALSE}

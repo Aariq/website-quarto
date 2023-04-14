@@ -29,12 +29,7 @@ I'm repeating an experiment from last year, where I put different densities of i
 
 I'm also trying my hand at making oolong tea!
 
-```{r}
-blogdown::shortcode("figure",
-                    src = "myoolong.jpg",
-                    title = "Jin Guan Yin leaves after two rounds of gentle bruising",
-                    lightbox="true", width = "60%")
-```
+![Jin Guan Yin leaves after two rounds of gentle bruising](myoolong.jpg){fig-alt="A small pile of tea leaves that have turned brown around their edges" fig-align="center" width="598"}
 
 This is part of an experiment aiming to better understand when leafhoppers are a pest, and when they can improve tea quality.
 They're definitely considered a pest to farmers that make green tea, but prized by some farmers making [Eastern Beauty oolong](https://specialtyteaalliance.org/world-of-tea/oriental-beauty-bug-bitten-teas/).
@@ -43,9 +38,7 @@ I've written a bit about this on [TeaGeek](http://www.teageek.net/blog/2018/03/o
 
 I'm doing these two experiments at TRI's new-ish experimental field station in near-by Shengzhou.
 
-```{r}
-blogdown::shortcode("figure", src = "shengzhou.jpg", width = "80%", lightbox = "true", title = "A view of the Shengzhou TRI Experimental Station")
-```
+![A view of the Shengzhou TRI Experimental Station](shengzhou.jpg){fig-alt="A landscape view of tea plants planted in rows in the foreground with mountains and sky and a few buildings in the background" fig-align="center" width="656"}
 
 It is rather boring there since there are hardly any other students working there, it's in a rural area, and it has barely functioning internet.
 But the weather last week there was *amazing*.
@@ -64,16 +57,12 @@ I'm so happy to see old friends and meet new ones!
 I've been working closely with Dr. Li Xin and his masters student, Wei Ji Peng for the past 3 years and it's great to see them again.
 I've also made friends in other departments (it's easy to make friends at a tea research institute when you're a foreign tea geek!) and it's great to see them again as well.
 
-```{r}
-blogdown::shortcode("figure", src = "lixin-weijipeng.jpg", width = "60%", lightbox = "true", title = "Wei Ji-Peng (left), me (center), and Dr. Li Xin (right) at the Shengzhou experimental station")
-```
+![Wei Ji-Peng (left), me (center), and Dr. Li Xin (right) at the Shengzhou experimental station](lixin-weijipeng.jpg){fig-alt="Three men standing in a tea field posing for a photo" fig-align="center" width="582"}
 
 I've also been lucky to have a Chinese REU student working with me this summer.
 Her name is Guo Ming Ming, and she's been extremely helpful in carrying out experiments, catching leafhoppers, and translating (no, even after 4 years I do not speak Mandarin well enough to do much of anything on my own).
 
-```{r}
-blogdown::shortcode("figure", src = "ming-ming.jpg", width = "60%", lightbox = "true", title = "Guo Ming-Ming, an undergraduate researcher visiting from Guangzhou for the summer")
-```
+![Guo Ming-Ming, an undergraduate researcher visiting from Guangzhou for the summer](ming-ming.jpg){fig-alt="A young woman with a bucket hat standing in a tea giving a peace sign" fig-align="center" width="439"}
 
 ## Computer work
 

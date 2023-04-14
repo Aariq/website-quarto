@@ -46,10 +46,7 @@ The flexibility of the strips roughly corresponds to a smoothing penalty (stiffe
 You can bend the first strip on one dimension, but you can't really bend the adjacent strip in the completely opposite direction.
 The shape of the strips in one dimension is forced to vary smoothly across the other dimension.
 
-```{r echo=FALSE}
-#find a basketweave pic
-knitr::include_graphics("basket.png", dpi = 50) 
-```
+![](basket.png){fig-alt="basketweave pattern" fig-align="center"}
 
 The tensor product for a DLNM has the environmental predictor on one dimension (SPEI, in our example) and lag time on the other dimension.
 So SPEI can have a non-linear effect on plant growth, but the shape of that relationship with lag = 0 is constrained to be similar to the shape at lag = 1 (the adjacent strip of wood).

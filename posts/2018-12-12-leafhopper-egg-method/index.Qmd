@@ -10,6 +10,7 @@ categories:
   - tea
   
 image: "featured2.png"
+image-alt: "Clip art of a blue flashlight pointing at a leaf with some orange goggles in front.  There is a green dot on the leaf that shows through the lens of the goggles"
 title-block-banner: "featured.png"
 ---
 
@@ -24,7 +25,7 @@ What the audience liked most, I think, were my methods for finding leafhopper eg
 You see, leafhoppers (including at least the tea green leafhopper and the small green leafhopper, *Empoasca vitis*) lay their eggs *inside* plant tissues, making them impossible to find with the naked eye.
 But, you can take advantage of the fluorescent properties of leafhopper eggs and plants to make them more visible.
 
-![Students from TRI CAAS looking for leafhopper eggs in tea shoots](learning-SLEDA.jpeg){fig-align="center" width="587"}
+![Students from TRI CAAS looking for leafhopper eggs in tea shoots](learning-SLEDA.jpeg){fig-alt="A man and a woman bent over looking at plant leaves with a blue flashlight while wearing orange goggles" fig-align="center" width="587"}
 
 It turns out that under blue light, leafhopper eggs fluoresce bright green while the chlorophyll in plants fluoresces red.
 By using blue light to create this fluorescence and blocking the blue light coming to your eyes with a filter, you can easily spot the eggs even though they are under the epidermis of the tea stems.
@@ -36,7 +37,7 @@ I move the beam of a blue LED flashlight (which you can't really see because of 
 This is a leafhopper egg.
 Then I remove the orange goggles so you can see what it looks like without them---totally washed out by blue light.
 
-![A tea shoot lit by ambient light (left) and by blue light, filtered through orange goggles (right). The leafhopper egg is the small green dot on the stem in the right panel.](SLEDA-in-lab.png){fig-align="center" width="611"}
+![A tea shoot lit by ambient light (left) and by blue light, filtered through orange goggles (right). The leafhopper egg is the small green dot on the stem in the right panel.](SLEDA-in-lab.png){fig-alt="A tea shoot with a black background (left) and the same shoot under different lighting on the right with a green dot appearing on the stem." fig-align="center" width="611"}
 
 This method is modified from a [2004 paper by Herrmann and Böll](http://link.springer.com/10.1007/BF03356146) that was written before bright blue LEDs were widely available, and calls for the use of full-spectrum white light from a halogen bulb passed through a filter.
 Now, blue LED flashlights are cheap and widely available, providing a much more portable solution for field sampling.

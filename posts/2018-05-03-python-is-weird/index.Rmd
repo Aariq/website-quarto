@@ -8,6 +8,7 @@ categories:
   - python
   - r
 image: featured.png
+image-alt: "Meme of line drawing of Jackie Chan looking confused/angry next to a Python logo"
 ---
 
 ```{r include=FALSE}

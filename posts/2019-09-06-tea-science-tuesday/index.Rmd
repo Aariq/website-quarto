@@ -16,6 +16,8 @@ library(kableExtra)
 library(readr)
 ```
 
+![](Tea%20Instagram.png){fig-alt="A flyer with an image of a tea farm in the background.  Flyer reads \"Live on tuesdays 9:00 EDT.Tea Science Tuesday. Drink & Learn.  Sept. 10 - Caffeine.  Sept 17 - Aftertaste.  Sept 24 - Aroma.  Oct 1 - But-bitten tea" fig-align="center" width="604"}
+
 ```{r echo=FALSE, out.width="70%"}
 include_graphics("Tea Instagram.png")
 ```
