@@ -11,8 +11,6 @@ categories:
 # projects: [heliconia]
 ---
 
-{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" icon= >}}
-
 <!-- Hey, you might not bother finishing this.  You already talked about it in an earlier post on visualizing results of DLNMs -->
 
 ```{r include=FALSE, paged.print=FALSE}
@@ -403,3 +401,6 @@ For example, If I wanted to constrain the lag dimension to be a switchpoint func
 If you're interested in interpreting your results in terms of relative risk ratios, then `dlnm` offers some OK visualiztion options for that.
 When using smooth functions for both marginal bases, the differences between using a straight tensor product with `te()` and using a crossbasis function start to fade away.
 The `dlnm` version is still a little easier to interpret, I think, because you can more easily compare slices through lag time with the plot of the smooth itself.
+
+{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}
+

@@ -8,7 +8,7 @@ categories:
   - GAMs
   - r
 ---
-{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}
+
 
 ::: callout-note
 This is part of series about distributed lag non-linear models.
@@ -86,8 +86,11 @@ toc()
 ```
 
 Hmm..
-that took **longer**.
+that took **longer**. 
 The help file for `bam()` seems to indicate that it might not speed things up if a computationally "expensive basis" is used.
 So with this small dataset, maybe it's doing more work and taking longer?
 
 When I switch to `bam()` for the model using the entire dataset (\~20,000 rows), I go from 380 seconds to 41 seconds---a significant improvement!
+
+{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}
+

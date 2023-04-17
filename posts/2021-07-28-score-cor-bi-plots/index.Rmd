@@ -10,7 +10,6 @@ categories:
   - ggplot2
 draft: true
 ---
-{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" icon= >}}
 
 -   what score, loading, correlation, bi-plots are (rely heavily on links as this post focused on plotting)
 -   use palmer penguins dataset
@@ -248,3 +247,5 @@ head(x$sites) #scores
 ```
 
 Once you've identified the score and loading data, you can use the same methods above to make your customizable plot.
+
+{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}

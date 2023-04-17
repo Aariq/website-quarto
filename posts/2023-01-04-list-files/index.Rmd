@@ -6,8 +6,6 @@ categories:
   - r
 ---
 
-{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}
-
 This is a cautionary tale about the base R function `list.files()`.
 When you give it a vector of paths (which you totally can do), it **re-orders** the output alphabetically.
 This screwed me over in a project I'm working on where I took file paths from a data frame, used them to `list.files()` and assumed (a sane assumption, I think) that the output would be in the same order.
@@ -40,3 +38,5 @@ fs::dir_ls(file_list) #in correct order C, A, B
 
 Needless to say, I'll be switching over to `fs::dir_ls()` for this project.
 I'll also be spending some more time exploring the `fs` package and likely using it for all my file exploring and manipulation needs from now on.
+
+{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}

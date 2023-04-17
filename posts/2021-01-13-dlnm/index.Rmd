@@ -9,7 +9,7 @@ categories:
   - r
 # projects: [heliconia]
 ---
-{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}
+
 
 ```{r setup, include=FALSE}
 library(mgcv)
@@ -95,4 +95,7 @@ Heck, it was only in [2016](https://doi.org/10.1080/01621459.2016.1180986) when 
 
 So in this blog series I'm going to document challenges and confusions I come up against while trying to figure out how to implement and interpret these models.
 Don't expect tutorials or great insights or even necessarily complete thoughts.
-But please, PLEASE, chime in in the comments if you have questions or answers.
+But please, PLEASE, chime in in the comments if you have questions or answers. 
+
+{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}
+

@@ -7,7 +7,6 @@ categories:
   - r
 ---
 
-{{< downloadthis index.Qmd dname="index.Qmd" label="Download Qmd" >}}
 
 ```{r setup, include=FALSE}
 library(tidyverse)
@@ -156,4 +155,7 @@ Tibbles with matrix-columns don't throw the same error, but unfortunately this i
 As you can see, only the first column of the matrix was saved to the csv file.
 If you want to use matrix-columns in your work, you should either create them in the same document as your analysis, or save them as .rds files.
 
-That's all for now, but please let me know in the comments if you've used matrix-columns in your work!
+That's all for now, but please let me know in the comments if you've used matrix-columns in your work! 
+
+{{< downloadthis index.Qmd dname="index.Qmd" label="Download Qmd" >}}
+

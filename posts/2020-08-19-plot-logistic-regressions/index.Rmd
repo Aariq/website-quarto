@@ -7,7 +7,7 @@ categories:
   - r
   - data-visualization
 ---
-{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}
+
 
 ```{r include=FALSE}
 library(tidyverse)
@@ -145,3 +145,5 @@ The downside to this plot is that there are technically ***three*** y-axes---the
 You can [add a second y-axis to a ggplot](https://www.r-graph-gallery.com/line-chart-dual-Y-axis-ggplot2.html), but I'm not sure about a third y-axis.
 
 If you know of another cool way to visualize logistic regressions, or know of some package that does all this for you, please let me know in the comments!
+
+{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}
