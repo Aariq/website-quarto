@@ -10,6 +10,8 @@ image: "featured.png"
 image-alt: "A chocolate frosted chocolate cupcake vs. a chocolate chip muffin"
 ---
 
+{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}
+
 ```{r include=FALSE}
 library(tidyverse)
 library(here)

@@ -10,6 +10,7 @@ categories:
   - ggplot2
 draft: true
 ---
+{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" icon= >}}
 
 -   what score, loading, correlation, bi-plots are (rely heavily on links as this post focused on plotting)
 -   use palmer penguins dataset

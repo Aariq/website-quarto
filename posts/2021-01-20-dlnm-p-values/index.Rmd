@@ -9,6 +9,7 @@ categories:
   - r
 # projects: [heliconia]
 ---
+{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}
 
 ```{r include=FALSE}
 library(tidyverse)
@@ -26,8 +27,23 @@ Getting some measure of statistical significance of drought history in these mod
 Even with simple linear models, there are multiple ways of doing hypothesis testing, some more "correct" than others.
 For example, this recent Twitter discussion about the default behavior of `anova()` usually being innapropriate:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">EEB folks: when did you realize that <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> uses Type I sums of squares as a default? via <a href="https://twitter.com/DanielBolnick?ref_src=twsrc%5Etfw">@DanielBolnick</a> <br><br>&quot;before&quot; means that you ran analyses without realizing but then changed them (e.g., to Type III) before publishing. <br><br>&quot;after&quot; means you published with it &amp; later realized</p>&mdash; Andrew Hendry (@EcoEvoEvoEco) <a href="https://twitter.com/EcoEvoEvoEco/status/1355902690254082048?ref_src=twsrc%5Etfw">January 31, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet">
 
+<p lang="en" dir="ltr">
+
+EEB folks: when did you realize that <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> uses Type I sums of squares as a default?
+via <a href="https://twitter.com/DanielBolnick?ref_src=twsrc%5Etfw">@DanielBolnick</a> <br><br>"before" means that you ran analyses without realizing but then changed them (e.g., to Type III) before publishing.
+<br><br>"after" means you published with it & later realized
+
+</p>
+
+--- Andrew Hendry (@EcoEvoEvoEco) <a href="https://twitter.com/EcoEvoEvoEco/status/1355902690254082048?ref_src=twsrc%5Etfw">January 31, 2021</a>
+
+</blockquote>
+
+```{=html}
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```
 ## P-values for GAMs
 
 This [StackExchange answer](https://stats.stackexchange.com/questions/274151/anova-to-compare-models/274632#274632) does a really good job of explaining hypothesis testing with GAMs, and I think this extends to DLNMs fit as GAMs.

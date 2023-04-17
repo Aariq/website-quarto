@@ -8,6 +8,7 @@ categories:
   - GAMs
   - r
 ---
+{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}
 
 ::: callout-note
 This is part of series about distributed lag non-linear models.

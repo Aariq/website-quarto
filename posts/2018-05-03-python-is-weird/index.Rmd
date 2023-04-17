@@ -10,6 +10,7 @@ categories:
 image: featured.png
 image-alt: "Meme of line drawing of Jackie Chan looking confused/angry next to a Python logo"
 ---
+{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}
 
 ```{r include=FALSE}
 library(knitr)

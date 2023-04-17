@@ -18,6 +18,7 @@ categories:
 image: featured.png
 image-alt: "A graphical representation of a data wrangling workflow.  An arrow points from a licor photosynthesis meter to a text file and another arrow points from the text file to a cleaned dataset"
 ---
+{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}
 
 ```{r message=FALSE, warning=FALSE, include=FALSE}
 library(knitr)

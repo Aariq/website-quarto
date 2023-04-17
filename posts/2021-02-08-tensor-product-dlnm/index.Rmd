@@ -11,6 +11,8 @@ categories:
 # projects: [heliconia]
 ---
 
+{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" icon= >}}
+
 <!-- Hey, you might not bother finishing this.  You already talked about it in an earlier post on visualizing results of DLNMs -->
 
 ```{r include=FALSE, paged.print=FALSE}
