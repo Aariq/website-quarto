@@ -7,6 +7,7 @@ categories:
   - r
   - multivariate-statistics
 ---
+{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}
 
 I woke up this morning to an email saying [my first R package](https://github.com/Aariq/holodeck), `holodeck`, was on it's way to [CRAN](https://cran.r-project.org/)!
 It's a humble package, providing a framework for quickly slapping together test data with different degrees of correlation between variables and differentiation among levels of a categorical variable.

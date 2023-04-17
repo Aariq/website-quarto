@@ -7,6 +7,8 @@ categories:
   - r
 ---
 
+{{< downloadthis index.Qmd dname="index.Qmd" label="Download Qmd" >}}
+
 ```{r setup, include=FALSE}
 library(tidyverse)
 library(knitr)

@@ -3,7 +3,7 @@ project:
 execute:
   freeze: auto
 website:
-  title: "website-quarto"
+  title: "Eric R. Scott"
   site-url: https://www.ericrscott.com/
   favicon: icon.png
   twitter-card: 

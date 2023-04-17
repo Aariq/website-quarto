@@ -9,6 +9,7 @@ categories:
   - r
 # projects: [heliconia]
 ---
+{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}
 
 ```{r setup, include=FALSE}
 library(mgcv)
