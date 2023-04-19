@@ -1,7 +1,11 @@
 ---
 title: "Projects"
+format:
+  html:
+    page-layout: full
 listing: 
   contents: project
   type: grid
   sort: "date desc"
+  grid-columns: 4
 ---
