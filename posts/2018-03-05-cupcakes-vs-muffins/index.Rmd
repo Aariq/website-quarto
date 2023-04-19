@@ -1,6 +1,6 @@
 ---
 title: Cupcakes vs. Muffins
-author: Eric R. Scott
+# author: Eric R. Scott
 date: '2018-03-05'
 # slug: cupcakes-vs-muffins
 categories:
@@ -15,7 +15,6 @@ image: featured.png
 image-alt: "A chocolate frosted chocolate cupcake (left) vs. a chocolate chip muffin (right)"
 ---
 
-{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}
 
 One thing I've learned from my PhD at Tufts is that I really enjoy working data wrangling, visualization, and statistics in R.
 I enjoy it so much, that lately I've been strongly considering a career in data science after graduation.
@@ -177,3 +176,6 @@ Is it sweetness?
 Is it something to do with leavening?
 Butter vs oil?
 Leave your predictions in the comments below!
+
+{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}
+

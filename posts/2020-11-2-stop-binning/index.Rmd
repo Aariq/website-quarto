@@ -1,16 +1,13 @@
 ---
 title: Treat your treatments as continuous
-author: Eric R. Scott
+# author: Eric R. Scott
 date: '2020-11-02'
 # slug: stop-binning
 categories:
   - r
-  - quadratic-regression
-  - modeling
 image: featured.png
 image-alt: "Left: A plot titled 'ANOVA' showing a bar chart with three bars.  x-axis reads 'Fertilizer (kg N/ha)'.  y-axis reads '%maximum yield'.  The three bars have significance letters indicating that the highest fertilizer treatment has significantly lower yield.  Right: a plot titled 'Regression' where a quadratic line is plotted through points with a confidence interval ribbon.  The x-axis on this plot reads 'Soil N (kg N/ha)' "
 ---
-
 
 ```{r include=FALSE}
 library(tidyverse)

@@ -1,6 +1,6 @@
 ---
 title: Cupcake Update
-author: Eric R. Scott
+# author: Eric R. Scott
 date: '2018-04-10'
 # slug: cupcake-update
 categories:

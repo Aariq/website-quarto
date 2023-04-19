@@ -1,7 +1,7 @@
 ---
 title: Fitting a DLNM is simple without the {dlnm} package
 subtitle: 'Wait, then what does {dlnm} do?'
-author: Eric R. Scott
+# author: Eric R. Scott
 date: '2021-02-08'
 # slug: [tensor-product-dlnm]
 categories:
@@ -403,4 +403,3 @@ When using smooth functions for both marginal bases, the differences between usi
 The `dlnm` version is still a little easier to interpret, I think, because you can more easily compare slices through lag time with the plot of the smooth itself.
 
 {{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}
-

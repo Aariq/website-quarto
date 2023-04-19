@@ -1,6 +1,6 @@
 ---
 title: The Making of PlantCamBot
-author: Eric R. Scott
+# author: Eric R. Scott
 date: '2019-08-12'
 # slug: the-making-of-plantcambot
 categories:

@@ -1,6 +1,6 @@
 ---
 title: DLNM marginal basis functions
-author: Eric R. Scott
+# author: Eric R. Scott
 date: '2021-01-18'
 # slug: dlnm-basis
 categories:
@@ -25,7 +25,7 @@ Please read the [first post](/post/dlnm) for an introduction and a disclaimer.
 
 According to Gasparrini et al. ([2017](http://doi.wiley.com/10.1111/biom.12645)), a crossbasis function is a "bi-dimensional dose-lag-response function $f \cdot w(x,l)$ is composed of two marginal functions: the standard dose-response function $f(x)$, and the additional lag-response function $w(l)$ that models the lag structure..." Each dimension can be described by a different type of function.
 The default for the `dlnm` package is a type of smoother called a P-spline, but it can be changed to other types of splines or even something like step function.
-The marginal functions can also be mixed and matched, e.g., a P-spline for the lag dimension and a step function for the dose-response dimension. 
+The marginal functions can also be mixed and matched, e.g., a P-spline for the lag dimension and a step function for the dose-response dimension.
 
 I'd like to use penalized splines for both bases since they are flexible---that is, they can take nearly any functional shape, including a perfectly straight line.
 
@@ -101,4 +101,3 @@ I'm going to stick with the cubic regression spline basis (`bs = "cr"`) because 
 In addition, Simon Wood says "However, in regular use, splines with derivative based penalties (e.g."tp" or "cr" bases) tend to result in slightly better MSE performance" (see `?smooth.construct.ps.smooth.spec`).
 
 {{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}
-

@@ -1,11 +1,10 @@
 ---
 title: Retrieve chemical retention indices from NIST with {webchem}!
-author: Eric R. Scott
+# author: Eric R. Scott
 date: '2018-06-28'
 # slug: webchem
 categories:
   - data-science
-  - research
   - data-wrangling
   - r
   - webscraping
@@ -14,7 +13,6 @@ categories:
 #   - webchem
 image: featured.png
 ---
-{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}
 
 ```{r message=FALSE, warning=FALSE, include=FALSE}
 library(knitr)
@@ -865,3 +863,5 @@ left_join(fake.data, best_RIs) %>%
   arrange(RI) %>%
   knitr::kable()
 ```
+
+{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}

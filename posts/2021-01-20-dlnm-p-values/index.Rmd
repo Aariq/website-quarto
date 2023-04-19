@@ -1,6 +1,6 @@
 ---
 title: 'DLNMs: hypothesis tests and p-values'
-author: Eric R. Scott
+# author: Eric R. Scott
 date: '2021-01-20'
 # slug: dlnm-p-values
 categories:
@@ -9,7 +9,6 @@ categories:
   - r
 # projects: [heliconia]
 ---
-
 
 ```{r include=FALSE}
 library(tidyverse)
@@ -133,7 +132,6 @@ There's really no difference in the shape of `s(log_size)` meaning that the rela
 The surface for the lagged drought effect is similar in shape, but slightly *flatter* in the shrinkage penalized version, just as we'd expect from the edf being lower.
 
 {{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}
-
 
 [^1]: Wood SN (2013) On p-values for smooth components of an extended generalized additive model.
     Biometrika 100:221--228 .

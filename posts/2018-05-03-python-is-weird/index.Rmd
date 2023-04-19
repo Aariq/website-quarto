@@ -1,6 +1,6 @@
 ---
 title: Python is Weird (an unabashedly biased intro to Python for R users)
-author: Eric R. Scott
+# author: Eric R. Scott
 date: '2018-05-03'
 # slug: python-is-weird
 categories:
@@ -10,7 +10,7 @@ categories:
 image: featured.png
 image-alt: "Meme of line drawing of Jackie Chan looking confused/angry next to a Python logo"
 ---
-{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}
+
 
 ```{r include=FALSE}
 library(knitr)
@@ -171,3 +171,6 @@ If you want to make an *exact* copy, you have to do that explicitly with `a2 = n
 As many people in the data science world have pointed out, it's not R vs. Python, it's [R *and* Python](https://www.datasciencecentral.com/profiles/blogs/r-vs-python-r-and-python-and-something-else).
 From my limited experience, the benefits of Python over R I've are that it seems to be faster, defining classes and functions seems less painful, and it's great at working with strings out of the box.
 I don't really plan on working in Python more unless I have to, but knowing a bit of the language will be useful for talking shop with people who use it!
+
+{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}
+

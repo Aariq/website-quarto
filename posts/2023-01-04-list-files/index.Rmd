@@ -1,6 +1,6 @@
 ---
 title: "Oh for {fs}, are you kidding me, base R?"
-author: Eric R. Scott
+# author: Eric R. Scott
 date: '2023-01-05'
 categories:
   - r

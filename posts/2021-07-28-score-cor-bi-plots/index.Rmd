@@ -1,13 +1,12 @@
 ---
 title: Plotting Multivariate Analyses with ggplot2
 subtitle: 'Score, loading, correlation, and bi-plots with ggplot2 and friends'
-author: Eric R. Scott
+# author: Eric R. Scott
 date: '2021-02-08'
 categories:
   - multivariate-statistics
   - data-visualization
   - r
-  - ggplot2
 draft: true
 ---
 

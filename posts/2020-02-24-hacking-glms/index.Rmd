@@ -1,13 +1,10 @@
 ---
 title: Hacking GLMs to fit population growth models
-author: Eric R. Scott
+# author: Eric R. Scott
 date: '2020-02-24'
 # slug: hacking-glms
 categories:
   - r
-  - modeling
-draft: no
-# math: yes
 ---
 
 I'm currently teaching Ecological Statistics and Data, a class I inherited from [Lee Brown](http://ase.tufts.edu/biology/labs/crone/cronies) and [Elizabeth Crone](https://ase.tufts.edu/biology/faculty/crone/).
@@ -195,4 +192,3 @@ ggplot(wolves2, aes(x = year, y = num.wolves)) +
 {{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}
 
 {{< downloadthis NRMwolves.csv dname="NRMwolves.csv" label="Download Data" >}}
-

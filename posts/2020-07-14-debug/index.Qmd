@@ -1,11 +1,10 @@
 ---
 title: Looking under the hood with debug()
-author: 'Eric Scott'
+# author: 'Eric Scott'
 date: '2020-07-14'
 # slug: debug
 categories:
   - r
-  - debugging
 ---
 
 If you've ever tried to look "under the hood" of an R function, you know that sometimes it can be tricky to figure out what's going on, especially if you use R more as a statistical tool than as a programming language.

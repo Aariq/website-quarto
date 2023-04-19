@@ -1,14 +1,11 @@
 ---
 title: Last Fieldwork Season in China
-author: Eric R. Scott
+# author: Eric R. Scott
 date: '2018-07-20'
 # slug: last-fieldwork-season
 categories:
-  - research
   - tea
-  - plant-volatiles
   - fieldwork
-  - plant-defense
   - leafhoppers
 image: featured.png
 image-alt: "A young boy inspects lotus leaves at West Lake, Hangzhou"

@@ -1,13 +1,12 @@
 ---
 title: "RStudio::conf reflections"
-author: Eric R. Scott
+# author: Eric R. Scott
 date: '2019-01-23'
 # slug: rstudio-conf-reflections
 categories:
   - data-science
   - r
   - rmarkdown
-  - tidyverse
 ---
 
 This was my first time attending [RStudio::conf](https://www.rstudio.com/conference/), and I went primarily to explore my career options in data science.
@@ -33,8 +32,21 @@ That means no more "I can maybe help you if you send me your code" emails!
 
 # When to make a CRAN package
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;I wish I&#39;d left this code across scattered .R files instead of combining it into a package&quot; said no one ever <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="http://t.co/udeNH4T67H">http://t.co/udeNH4T67H</a></p>&mdash; David Robinson (@drob) <a href="https://twitter.com/drob/status/611885584584441856?ref_src=twsrc%5Etfw">June 19, 2015</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet">
 
+<p lang="en" dir="ltr">
+
+"I wish I'd left this code across scattered .R files instead of combining it into a package" said no one ever <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="http://t.co/udeNH4T67H">http://t.co/udeNH4T67H</a>
+
+</p>
+
+--- David Robinson (@drob) <a href="https://twitter.com/drob/status/611885584584441856?ref_src=twsrc%5Etfw">June 19, 2015</a>
+
+</blockquote>
+
+```{=html}
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```
 I had already taken this advice and built a package for myself with all the functions that I've written and used in multiple projects.
 I called it `chemhelper` and put it up on [GitHub](https://github.com/Aariq/chemhelper), just in case someone else would find it useful.
 Now I'm working on a manuscript that uses some of the functions in this package, and I needed advice on what to do to make my analysis reproducible and archivable upon submitting it.

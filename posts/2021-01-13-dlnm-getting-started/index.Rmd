@@ -1,6 +1,6 @@
 ---
 title: 'DLNMs: building and visualizing crossbasis functions'
-author: Eric R. Scott
+# author: Eric R. Scott
 date: '2021-01-13'
 # slug: dlnm-getting-started
 categories:
@@ -9,7 +9,6 @@ categories:
   - r
 # projects: [heliconia]
 ---
-
 
 ```{r setup, include=FALSE}
 library(tidyverse)
@@ -389,7 +388,6 @@ gratia::draw(growth, select = 1)
 ```
 
 So my efforts in creating `cb_margeff()` weren't for nothing, afterall, and are not in conflict with the views of the `dlnm` package authors.
-Some day I should probably figure out how to "manually" calculate values of $y$ from the GAM coefficients, but today is not that day. 
+Some day I should probably figure out how to "manually" calculate values of $y$ from the GAM coefficients, but today is not that day.
 
 {{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}
-

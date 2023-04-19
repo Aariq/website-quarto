@@ -1,10 +1,9 @@
 ---
 title: "Finding Cryptic Insect Eggs With Fluorescence"
-author: "Eric R. Scott"
+# author: "Eric R. Scott"
 date: '2018-12-12'
 # slug: leafhopper-egg-method
 categories:
-  - research
   - fieldwork
   - leafhoppers
   - tea

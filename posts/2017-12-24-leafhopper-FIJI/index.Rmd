@@ -1,14 +1,10 @@
 ---
 title: Quantifying leafhopper damage with automated supervised classification
-author: Eric R. Scott
+# author: Eric R. Scott
 date: '2017-12-24'
 # slug: leafhopper-FIJI
 categories:
-  - research
-  - FIJI
-  - ImageJ
   - tea
-  - plant-defense
   - r
   - leafhoppers
 

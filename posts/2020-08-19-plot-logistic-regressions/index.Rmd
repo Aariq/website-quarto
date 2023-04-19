@@ -1,13 +1,12 @@
 ---
 title: Three ways to plot logistic regressions
-author: Eric R. Scott
+# author: Eric R. Scott
 date: '2020-08-19'
 # slug: plot-logistic-regressions
 categories:
   - r
   - data-visualization
 ---
-
 
 ```{r include=FALSE}
 library(tidyverse)

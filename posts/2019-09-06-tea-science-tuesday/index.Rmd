@@ -1,6 +1,6 @@
 ---
 title: Tea Science Tuesday
-author: Eric R. Scott
+# author: Eric R. Scott
 date: '2019-09-06'
 # slug: tea-science-tuesday
 categories:

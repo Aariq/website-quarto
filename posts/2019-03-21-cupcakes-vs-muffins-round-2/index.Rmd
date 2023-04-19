@@ -1,6 +1,6 @@
 ---
 title: 'Cupcakes vs Muffins: Round 2'
-author: "Eric R. Scott"
+# author: "Eric R. Scott"
 date: '2019-03-21'
 # slug: cupcakes-vs-muffins-round-2
 categories: 
@@ -9,7 +9,6 @@ categories:
 image: "featured.png"
 image-alt: "A chocolate frosted chocolate cupcake vs. a chocolate chip muffin"
 ---
-
 
 ```{r include=FALSE}
 library(tidyverse)
