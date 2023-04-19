@@ -26,3 +26,11 @@ Adjust logo size
   padding-top: 0;
   padding-bottom: 0;
 }
+
+/*
+Makes homepage a little wider
+*/
+
+div.quarto-about-trestles .about-entity {
+    flex: 0 0 30%;
+}
