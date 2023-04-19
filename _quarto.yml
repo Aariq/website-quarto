@@ -41,11 +41,11 @@ format:
     theme: 
       light: 
         - flatly
-        - custom.scss
+        - custom.scss # This works
       dark: 
         - darkly
-        - custom.scss
-    # css: custom.scss
+        - custom.scss # This works
+    # css: custom.scss # This works in preview, but not when published
     toc: true
 
 editor: visual
