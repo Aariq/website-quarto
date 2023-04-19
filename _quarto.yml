@@ -39,9 +39,13 @@ website:
 format:
   html:
     theme: 
-      light: flatly
-      dark: darkly
-    css: custom.scss
+      light: 
+        - flatly
+        - custom.scss
+      dark: 
+        - darkly
+        - custom.scss
+    # css: custom.scss
     toc: true
 
 editor: visual
