@@ -6,11 +6,11 @@ format:
       - custom.scss
 ---
 
+```{=html}
 <!--
-
 Because the rendered site is frozen, an update to the source code (i.e. this document) is required to update the page.  After adding a publication to Zotero and syncing, edit this comment (add a space or something), `quarto_render()`, then push to GitHub to update the website.
 -->
-
+```
 ```{r}
 #| echo: false
 #| output: asis
