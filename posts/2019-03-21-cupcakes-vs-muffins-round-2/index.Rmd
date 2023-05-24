@@ -305,5 +305,3 @@ If you're asking a question about multivariate relationships to some Y variable 
 ## Acknowledgments
 
 Thanks to Elizabeth Crone for comments on a draft of this post and for encouraging me to do *serious science* using muffin and cupcake recipes!
-
-{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}

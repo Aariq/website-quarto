@@ -15,7 +15,6 @@ image: featured.png
 image-alt: "A chocolate frosted chocolate cupcake (left) vs. a chocolate chip muffin (right)"
 ---
 
-
 One thing I've learned from my PhD at Tufts is that I really enjoy working data wrangling, visualization, and statistics in R.
 I enjoy it so much, that lately I've been strongly considering a career in data science after graduation.
 As a way to showcase my data science skills, I've been working on a side project to use web-scraping and multivariate statistics to answer the age old question: Are cupcakes really *that* different from muffins?
@@ -176,6 +175,3 @@ Is it sweetness?
 Is it something to do with leavening?
 Butter vs oil?
 Leave your predictions in the comments below!
-
-{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}
-

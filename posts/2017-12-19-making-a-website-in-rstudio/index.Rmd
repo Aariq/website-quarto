@@ -8,6 +8,7 @@ categories:
   - r
   - rmarkdown
   - blogdown
+code-tools: false
 ---
 
 I've always thought I should eventually have a professional website for job hunting, but recently I've realized that it would be nice to have somewhere to collect my thoughts and contributions all in one place.

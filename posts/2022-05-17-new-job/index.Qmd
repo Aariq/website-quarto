@@ -5,6 +5,7 @@ subtitle: 'at University of Arizona'
 date: '2022-05-17'
 categories:
   - alt-academic-careers
+code-tools: false
 ---
 
 My postdoc with the [Bruna lab](https://tropicos.netlify.app/) coming to an end in June and I'm excited to announce my new position as a Scientific Programmer & Educator with University of Arizona!

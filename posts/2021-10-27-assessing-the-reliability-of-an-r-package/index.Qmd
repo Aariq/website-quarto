@@ -4,6 +4,7 @@ title: Assessing the reliability of an R package
 date: '2021-10-27'
 categories:
   - r
+code-tools: false
 ---
 
 In the most recent [rOpenSci community call](https://ropensci.org/commcalls/oct2021-statsreview02/), [Juliane Manitz](http://www.manitz.org/) presented on standards for statistical software in the pharmaceutical industry.

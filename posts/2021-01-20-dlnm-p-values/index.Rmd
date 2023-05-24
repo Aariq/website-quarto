@@ -131,8 +131,6 @@ draw(growth_shrink)
 There's really no difference in the shape of `s(log_size)` meaning that the relationship really is log-linear, but that the term *should* stay in the model.
 The surface for the lagged drought effect is similar in shape, but slightly *flatter* in the shrinkage penalized version, just as we'd expect from the edf being lower.
 
-{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}
-
 [^1]: Wood SN (2013) On p-values for smooth components of an extended generalized additive model.
     Biometrika 100:221--228 .
     <https://doi.org/10.1093/biomet/ass048>

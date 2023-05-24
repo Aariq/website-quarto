@@ -5,6 +5,7 @@ execute:
 website:
   title: "Eric R. Scott"
   site-url: https://www.ericrscott.com/
+  repo-url: https://github.com/Aariq/website-quarto
   favicon: icon.png
   twitter-card: 
     creator: "@LeafyEricScott"

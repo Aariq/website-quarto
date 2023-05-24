@@ -246,5 +246,3 @@ head(x$sites) #scores
 ```
 
 Once you've identified the score and loading data, you can use the same methods above to make your customizable plot.
-
-{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}

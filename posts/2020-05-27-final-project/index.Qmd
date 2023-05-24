@@ -7,6 +7,7 @@ categories:
   - teaching
   - r
   - rmarkdown
+code-tools: false
 ---
 
 In March (which feels like years ago, now), when Universities started seriously thinking about their response to COVID-19, I was teaching Ecological Models and Data as instructor of record **and** finishing my dissertation up.

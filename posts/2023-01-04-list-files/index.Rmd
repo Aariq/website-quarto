@@ -38,5 +38,3 @@ fs::dir_ls(file_list) #in correct order C, A, B
 
 Needless to say, I'll be switching over to `fs::dir_ls()` for this project.
 I'll also be spending some more time exploring the `fs` package and likely using it for all my file exploring and manipulation needs from now on.
-
-{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}

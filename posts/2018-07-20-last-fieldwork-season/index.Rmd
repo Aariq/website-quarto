@@ -9,6 +9,7 @@ categories:
   - leafhoppers
 image: featured.png
 image-alt: "A young boy inspects lotus leaves at West Lake, Hangzhou"
+code-tools: false
 ---
 
 ```{r include=FALSE}

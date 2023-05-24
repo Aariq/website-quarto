@@ -863,5 +863,3 @@ left_join(fake.data, best_RIs) %>%
   arrange(RI) %>%
   knitr::kable()
 ```
-
-{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd" >}}

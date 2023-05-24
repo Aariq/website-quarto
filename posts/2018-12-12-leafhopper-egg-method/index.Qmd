@@ -11,6 +11,7 @@ categories:
 image: "featured2.png"
 image-alt: "Clip art of a blue flashlight pointing at a leaf with some orange goggles in front.  There is a green dot on the leaf that shows through the lens of the goggles"
 title-block-banner: "featured.png"
+code-tools: false
 ---
 
 ```{r}

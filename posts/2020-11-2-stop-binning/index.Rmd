@@ -257,8 +257,6 @@ In fact, that increased spread of your data is a *good thing* if you want to bet
 # ggsave("featured.png")
 ```
 
-{{< downloadthis index.Rmd dname="index.Rmd" label="Download Rmd">}}
-
 [^1]: Well, technically [ANOVA *is* a regression](https://lindeloev.github.io/tests-as-linear/#61_one-way_anova_and_kruskal-wallis)
 
 [^2]: Statistical power was estimated using the `pwr` package.
