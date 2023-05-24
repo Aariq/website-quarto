@@ -3,6 +3,7 @@ title: "Eric R. Scott"
 format:
   html:
     page-layout: full
+    toc: false
 about: 
   template: trestles
   image: eric_scott.JPG
