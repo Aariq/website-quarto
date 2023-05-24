@@ -87,21 +87,22 @@ Instead you get an empty viewer box like so.
 
 ![Trying to print a tibble with a matrix-column shows nothing in RStudio with paged printing of data frames.](fig1.png)
 
-You can turn off paged printing for a single code chunk with the `paged.print = FALSE` chunk option, and you'll see something more like this:
+You can turn off paged printing for a single code chunk with the `paged.print` chunk option, and you'll see something more like this:
 
-``` {{r}}
+```{r}
 #| paged.print: false
+#| echo: fenced
 tbl <- tibble(x = letters[1:10], mat_col = my_matrix)
-tbl
-```
-
-```{r echo=FALSE}
 tbl
 ```
 
 Also note that `View()` only renders the first column of a matrix column, with no indication that there is more to see.
 
 ![`View()`ing a tibble with a matrix-column only shows the first column of the matrix](fig2.png)
+
+::: callout-important
+The behavior of `View()` has been fixed since the original publication of this post.
+:::
 
 Despite the printing and viewing issues, matrix columns are surprisingly easy to use.
 The usual sort of indexing works as expected.
@@ -135,25 +136,37 @@ Ordinary data frames and tibbles (i.e. without list-columns or matrix-columns) c
 
 A tibble with a list-column will throw an error if you try to write it to a .csv file
 
-```{r error=TRUE}
+```{r}
+#| error: true
 df_list_col <- tibble(x = 1:10, y = list(1:10))
 
-write_csv(df_list_col, "test.csv")
+write_csv(df_list_col, "list_df.csv")
+```
+
+```{r}
+#| error: true
+read_csv("list_df.csv")
 ```
 
 Tibbles with matrix-columns don't throw the same error, but unfortunately this is not because they work correctly.
 
 ```{r}
-# write_csv(tbl, "test.csv")
+#| error: true
+write_csv(tbl, "mat_df.csv")
 ```
 
 ```{r}
-# read_csv("test.csv")
+#| error: true
+read_csv("mat_df")
 ```
 
 As you can see, only the first column of the matrix was saved to the csv file.
 If you want to use matrix-columns in your work, you should either create them in the same document as your analysis, or save them as .rds files.
 
-That's all for now, but please let me know in the comments if you've used matrix-columns in your work!
+::: callout-important
+Since the publication of this post, these errors have actually switched!
+Now `write_csv()` seems to not complain when writing tibbles with list-columns, although these columns are empty.
+It errors with the second example with a matrix column!
+:::
 
-{{< downloadthis index.Qmd dname="index.Qmd" label="Download Qmd" >}}
+That's all for now, but please let me know in the comments if you've used matrix-columns in your work!
