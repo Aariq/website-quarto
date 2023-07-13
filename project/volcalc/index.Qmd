@@ -1,0 +1,10 @@
+---
+title: volcalc
+abstract: An R package for calculating estimated volatility of compounds
+date: "2023-07-12T00:00:00Z"
+image: featured.png
+---
+
+::: {style="text-align: center;"}
+[Visit Project Site](https://meredith-lab.github.io/volcalc/)
+:::
