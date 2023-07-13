@@ -14,7 +14,7 @@ website:
     title: false
     logo: "icon-192.png"
     logo-alt: "two leaves and a bud with a bite taken out of a leaf"
-    background: "light"
+    background: "primary"
     pinned: true
     left:
       - href: index.qmd
