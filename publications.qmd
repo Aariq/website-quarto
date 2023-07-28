@@ -2,6 +2,7 @@
 title: "Publications"
 format:
   html:
+    from: markdown+autolink_bare_uris
     theme: 
       - custom.scss
 ---
@@ -32,15 +33,11 @@ req <-
 resp <- 
   req |> 
   req_perform()
-# pattern to match URLs
-url_pattern <- "(https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=\\[\\];]*))"
 
 resp |> 
   resp_body_json() |>  
   purrr::map("bib") |> 
   unlist() |> 
-  # surround URLs with <> so they are actually links in markdown
-  str_replace(url_pattern, "<\\1>") |> 
   # Bold my name 
   str_replace("(Scott, E\\. R\\.)", '<b>\\1</b>') |> 
   cat()
