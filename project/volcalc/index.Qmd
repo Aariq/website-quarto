@@ -1,10 +1,12 @@
 ---
 title: volcalc
-abstract: An R package for calculating estimated volatility of compounds
+abstract: "An R package for calculating estimated volatility of compounds using group contribution methods such as SIMPOL.1"
 date: "2023-07-12T00:00:00Z"
 image: featured.png
 ---
 
 ::: {style="text-align: center;"}
+![](featured.png){width="209"}
+
 [Visit Project Site](https://meredith-lab.github.io/volcalc/)
 :::

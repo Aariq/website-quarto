@@ -1,0 +1,13 @@
+---
+title: "AZMet"
+abstract: "Meterological data access and QA/QC for the Arizona Meterological Network"
+date: "2023-07-12T00:00:00Z"
+image: featured.png
+---
+
+::: {style="text-align: center;"}
+![](azmet.jpg){width="404"}
+:::
+
+I'm working with Jeremy Weiss at the University of Arizona Cooperative Extension to improve data access and quality for the Arizona Meterological Network (AZMet).
+I've created an [R package](https://github.com/uace-azmet/azmetr) to access weather data from the AZMet API in R, developed a novel [forecast-based QA pipeline](https://github.com/uace-azmet/azmet-forecast-qa), and a [QA dashboard](https://github.com/uace-azmet/azmet-qa-dashboard) with various data validations.
