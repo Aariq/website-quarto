@@ -1,0 +1,96 @@
+---
+title: "Re-constructing Google Forms answers with Quarto and {glue}"
+date: '2023-08-08'
+categories:
+  - r
+  - quarto
+---
+
+Recently I had to go through about 50 applications to a short course that were submitted via Google Forms and whittle it down to about 20 applicants.
+Google Forms collects data into a Google Sheet document, which is nice for machine readability, but in this case made it very difficult to read long format answers to questions.
+I spent about an hour using Quarto and the `glue` package to convert that data into something that looked more like an application.
+
+I can't share the original form or data, so for the sake of this blog post, I made a simple example form.
+
+Form: <https://forms.gle/yJjME2yZMZPzw3p28>
+
+Responses: <https://docs.google.com/spreadsheets/d/1SUy92T7I3ZoEyZjTxLP7F5pAup58c0xKl0QbvElIfxA/edit?usp=sharing>
+
+## Reading in the data
+
+`googlesheets4` is the package to use to read in the data.
+We'll need the sheet ID bit of the URL above to access it.
+
+```{r}
+#| output: false
+library(googlesheets4)
+applicants_raw <- read_sheet("1SUy92T7I3ZoEyZjTxLP7F5pAup58c0xKl0QbvElIfxA")
+
+```
+
+```{r}
+applicants_raw
+```
+
+You'll notice that the column headings are long and unruly, but also have important information.
+I'll save the originals and then clean them up in the dataframe with `janitor::clean_names()`.
+I'll remove the repetitive question "How comfortable are you with the following?" from the matrix question answer columns with some regex and `stringr`.
+
+```{r}
+library(janitor)
+library(stringr)
+questions <-
+  colnames(applicants_raw) |> 
+  str_replace("How comfortable are you with the following\\? \\[(.+)\\]", "\\1")
+applicants <- 
+  applicants_raw |> 
+  clean_names()
+questions
+applicants
+```
+
+## Creating the markdown
+
+The "trick" here lies in the fact that you can use the chunk option `output: asis` in Quarto (and RMarkdown) to treat the output of a code chunk as markdown.
+So we can use the `glue` package to programatically create markdown, and because `glue::glue()` is vectorized, we only have to generate a "template" of sorts and it will apply it to every response to our form (i.e. every row of the `applicants` tibble).
+You can see below this chunk how the "applications" get formatted by this template.
+
+```{r}
+#| output: asis
+#| echo: fenced
+
+library(glue)
+glue("### {applicants$name}
+     {applicants$career_stage} | {applicants$department} | <{applicants$email}>
+     
+     #### How comfortable are you with the following? 
+     
+     |                |                    |
+     |----------------|--------------------|
+     |{questions[6]}  | {applicants[[6]]}  |
+     |{questions[7]}  | {applicants[[7]]}  |
+     |{questions[8]}  | {applicants[[8]]}  |
+     |{questions[9]}  | {applicants[[9]]}  |
+     |{questions[10]} | {applicants[[10]]} |
+     
+     #### {questions[11]}
+     
+     {applicants[[11]]}
+     
+     
+     ")
+
+```
+
+## Putting it all together
+
+For the cherry on top, you can enable a table of contents and annotation with hypothes.is to allow easy navigation between applicants and allow you to take notes.
+Just add the following to the Quarto YAML header:
+
+``` yaml
+toc: true
+comments: 
+  hypothesis: true
+```
+
+I put the whole example together in a [repo](https://github.com/Aariq/google-form-quarto) where you can see the .Qmd [source code](https://github.com/Aariq/google-form-quarto/blob/main/applications.qmd) and the [rendered HTML](https://aariq.github.io/google-form-quarto/).
