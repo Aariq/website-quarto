@@ -1,5 +1,5 @@
 ---
-title: "Re-constructing Google Forms answers with Quarto and {glue}"
+title: "Re-constructing Google Forms responses with Quarto and {glue}"
 date: '2023-08-08'
 categories:
   - r
