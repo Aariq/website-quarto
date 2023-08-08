@@ -39,12 +39,15 @@ I'll remove the repetitive question "How comfortable are you with the following?
 ```{r}
 library(janitor)
 library(stringr)
+
 questions <-
   colnames(applicants_raw) |> 
   str_replace("How comfortable are you with the following\\? \\[(.+)\\]", "\\1")
+
 applicants <- 
   applicants_raw |> 
   clean_names()
+
 questions
 applicants
 ```
