@@ -13,5 +13,8 @@ Disallow: /
 User-agent: Omgilibot
 Disallow: /
 
+User-agent: Omgili
+Disallow: /
+
 User-agent: FacebookBot
 Disallow: /
