@@ -3,8 +3,6 @@ title: "Publications"
 format:
   html:
     from: markdown+autolink_bare_uris
-    theme: 
-      - custom.scss
 ---
 
 ```{=html}
