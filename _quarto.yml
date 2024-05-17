@@ -36,8 +36,6 @@ website:
     right:
       - icon: rss
         href: blog.xml
-  # repo-url: https://github.com/Aariq/website-quarto
-  # repo-actions: [edit, issue]
 
 format:
   html:
