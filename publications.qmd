@@ -40,6 +40,3 @@ resp |>
   str_replace("(Scott, E\\. R\\.)", '<b>\\1</b>') |> 
   cat()
 ```
-
-::: {#refs}
-:::
