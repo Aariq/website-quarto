@@ -31,6 +31,8 @@ website:
         text: Projects
       - href: publications.qmd
         text: Publications
+      - href: software.qmd
+        text: Code
       - href: Eric Scott cv.pdf
         text: CV
     right:
