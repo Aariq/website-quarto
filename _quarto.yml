@@ -44,12 +44,13 @@ format:
     theme: 
       light: 
         - flatly
-        - custom.scss # This works
+        - custom.scss
       dark: 
         - darkly
-        - custom.scss # This works
-    # css: custom.scss # This works in preview, but not when published
+        - custom.scss
     toc: true
 
-editor: visual
+editor: 
+  markdown: 
+    wrap: sentence
 
