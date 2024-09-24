@@ -1,0 +1,31 @@
+---
+title: "Lab Group Handbook Template"
+abstract: "Enabling lab groups to create their own handbooks using Quarto and GitHub"
+date: "12-15-2023"
+image: featured.png
+bibliography: references.bib
+---
+
+Lab handbooks are documents conveying the lab ethos, expectations, policies, and procedures that help improve lab group equity and productivity [@tendler2023].
+I think that Quarto books hosted on GitHub and deployed by GitHub pages are a great format for lab handbooks for a number of reasons:
+
+-   Keeping the source on GitHub makes it editable in a manageable way between the free-for-all of a shared google doc and the permanence of a PDF on a network drive
+
+-   There's a search bar!
+
+-   Git and GitHub are useful skills in academia [@bryan2018, @braga2023]
+
+-   Quarto is a useful tool in academia [@cetinkaya-rundelQuartoAcademics2023]
+
+![A screenshot of the homepage of the rendered template without any customization or editing](featured.png){fig-alt="Screenshot of a template lab group handbook site.  Title and author are both placeholders (GROUP_NAME and PI_NAME, respectively).  Home page reads \"Welcome! Note to lab members: this document is a work in progress and may change. It is your responsibility to be familiar with the content, so you should review these policies regularly\".  The table of contents has sections Welcome, Editing This Book, Code of Conduct, Group Expectations, Onboarding, Offboarding, Research Best Practices, Authorship, and References" fig-align="center"}
+
+I've created a [template repository on GitHub](https://github.com/cct-datascience/group-handbook-template) that anyone can use to create their own lab handbook.
+It includes detailed instructions on how to deploy the book, different ways to make edits to the book, my recommendations on file naming and organization for research projects, a code of conduct with U of A specific links, and thought-provoking discussion questions to help you and your lab group make the handbook your own.
+
+See also:
+
+-   [blog post](https://datascience.cct.arizona.edu/news/lab-group-handbook-template-and-workshop)
+
+-   [slides](https://cct-datascience.quarto.pub/creating-a-lab-group-handbook-with-quarto/)
+
+-   [recording of workshop](https://youtu.be/ad-1P11O5a4?si=v2OPU39_I5Kfa3a8)
