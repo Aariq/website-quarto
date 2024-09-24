@@ -1,7 +1,7 @@
 ---
 title: geotargets
 abstract: "`geotargets` extends `targets` to work with geospatial data formats, such as rasters and vectors (e.g., shapefiles). It's being developed in collaboration with [Nicholas Tierney](https://github.com/njtierney) with financial support from the [R Consortium](http://r-consortium.org/all-projects/call-for-proposals)."
-date: "2024-09-24T00:00:00Z"
+date: "2024-04-17T00:00:00Z"
 image: featured.png
 ---
 
