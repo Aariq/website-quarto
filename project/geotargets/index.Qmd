@@ -1,0 +1,15 @@
+---
+title: "geotargets"
+abstract: "R package to extend `targets` to work with geospatial packages."
+date: "2024-04-17T00:00:00Z"
+image: featured.png
+---
+
+The `geotargets` package extends the `targets` package to work with geospatial R packages such as `terra`, `stars`, and `sf`.
+It is being developed in collaboration with [Nicholas Tierney](https://github.com/njtierney) with financial support from the [R Consortium](http://r-consortium.org/all-projects/call-for-proposals).
+
+::: {style="text-align: center;"}
+![](featured.png){width="209"}
+
+[Visit Project Site](https://njtierney.github.io/geotargets/)
+:::
