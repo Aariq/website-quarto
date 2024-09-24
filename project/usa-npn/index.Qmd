@@ -1,0 +1,12 @@
+---
+title: "Estimating Trends in Phenology"
+abstract: "In collaboration with the USA National Phenology Network (USA-NPN), I'm working to estimate spatial and temporal trends in phenology in the Northeastern US."
+date: "2023-07-12T00:00:00Z"
+image: featured.png
+---
+
+::: {style="text-align: center;"}
+![The number of days staring from January 1 to reach at least 50 growing degree days across the northeastern US from 1991 to 2023.](featured.png){fig-alt="Maps of the northeastern US for each year from 1991 to 2023 showing the number of days to reach more than 50 growing degree days"}
+
+[Visit Project Site](https://datascience.cct.arizona.edu/estimating-trends-phenology/)
+:::
