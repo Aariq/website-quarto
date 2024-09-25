@@ -35,9 +35,16 @@ website:
         text: Code
       - href: Eric Scott cv.pdf
         text: CV
-    right:
+    tools:
+      - icon: github
+        menu:
+          - text: View Source
+            href: https://github.com/Aariq/website-quarto
+          - text: Report a Bug
+            href: https://github.com/Aariq/website-quarto/issues/new
       - icon: rss
         href: blog.xml
+        text: Blog RSS feed #shows on hover
 
 format:
   html:
