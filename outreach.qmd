@@ -2,6 +2,20 @@
 title: "Outreach"
 ---
 
+## Selected Workshops and Demos
+
+- [Code Review Demo: Reproducibility Audit](https://youtu.be/Q2ZsLbBkWrk?si=P-Nkv2FNlHXUBqgX)
+
+- [Managing complicated research workflows in R with {targets}](https://youtu.be/qTo6riXn6sw?si=Dk6j-P4h8pN0do0N)
+
+- [Automating research data workflows with GitHub Actions](https://youtu.be/NNo6yfEXF2g?si=fTix_K-mW67LSj5s)
+
+- [Creating a lab group handbook with Quarto](https://youtu.be/ad-1P11O5a4?si=lSmcPyjd9XGOQZkZ)
+
+- [Demystifying APIs for researchers](https://youtu.be/VP_CQ2JlnXg?si=fwByUfh9Vh4yQQDS)
+
+- [Multivariate statistics: using the right tool for the job](https://youtu.be/icKk7bkG6w4?si=oc4-ZGHR6eCLZEWg)
+
 ## Podcast and Radio Appearances:
 
 -   [Frequenza Della Scienza](https://radiostudent.si/znanost/frequenza-della-scienza/skodelica-%C4%8Daja), a science program on Radio Študent, an independent Slovenian radio station.
