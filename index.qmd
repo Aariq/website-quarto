@@ -29,19 +29,20 @@ about:
 
 # Biography
 
-I'm a Scientific Programmer & Educator at [The University of Arizona](https://datascience.cct.arizona.edu).
-I collaborate with researchers in the College of Agriculture, Life and Environmental Sciences on statistics, data wrangling, and data visualization.
-The workshops I teach are on a variety of beginner and intermediate data science topics, typically in R.
+I'm a scientific programmer & educator with a background in ecology and statistics.
+I work with researchers to manage and analyze data, automate workflows, create R packages, and build interactive web apps to help their science make an impact.
+I teach workshops and mentor researchers on a variety of beginner and intermediate data science topics.
+I have a passion for reproducible and open science and enjoy work that makes science more accessible.
 My background is in plant chemical ecology, plant--insect interactions, and plant demography.
 I'm also a huge tea geek and occasionally do tea science communication.
 
-::: columns
+::::: columns
 ::: column
 ### Interests
 
--   Plant ecology
--   Statistics and programming in R
 -   Reproducible research practices
+-   Statistics and programming in R
+-   Ecology
 -   Tea 🫖
 :::
 
@@ -52,4 +53,4 @@ I'm also a huge tea geek and occasionally do tea science communication.
 -   MS in Ecology, Evolution, and Conservation Biology, 2010 University of Illinois at Urbana-Champaign
 -   BA in Biology, 2006 Whitman College
 :::
-:::
+:::::

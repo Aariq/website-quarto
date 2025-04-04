@@ -5,6 +5,12 @@ project:
 execute:
   freeze: auto
 website:
+  announcement: 
+    icon: exclamation-square
+    dismissable: true
+    content: "<span style='font-size: 1.05rem;'>I'm looking for work as a research software engineer or data scientist.  Please [contact me](mailto:scottericr@gmail.com) if you are interested or have any leads.</span>"
+    position: below-navbar
+    type: warning
   title: "Eric R. Scott"
   site-url: https://www.ericrscott.com/
   repo-url: https://github.com/Aariq/website-quarto
