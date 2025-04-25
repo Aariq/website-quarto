@@ -23,8 +23,11 @@ about:
       text: LinkedIn
       href: https://www.linkedin.com/in/eric-r-scott-phd/
     - icon: ""
-      text: "{{< ai orcid >}} ORCID"
+      text: "{{< iconify academicons:orcid >}} ORCID"
       href: https://orcid.org/0000-0002-7430-7879
+    - icon: ""
+      text: "{{< iconify fa6-brands:bluesky >}} Bluesky"
+      href: https://bsky.app/profile/ericrscott.com
 ---
 
 # Biography
