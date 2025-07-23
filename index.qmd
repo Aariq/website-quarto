@@ -18,7 +18,7 @@ about:
       href: https://github.com/Aariq
     - icon: mastodon
       text: Mastodon
-      href: https://fosstodon.org/@LeafyEricScott
+      href: https://hachyderm.io/@LeafyEricScott
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/eric-r-scott-phd/
