@@ -1,5 +1,5 @@
 ---
-title: "Eric R. Scott"
+title: "Eric R. Scott, PhD"
 format:
   html:
     page-layout: full
@@ -44,16 +44,20 @@ I'm also a huge tea geek and occasionally do tea science communication.
 ### Interests
 
 -   Reproducible research practices
--   Statistics and programming in R
--   Ecology
--   Tea 🫖
+-   Automating data access and data wrangling workflows
+-   Automating geospatial data workflows
+-   Supporting research in biology, chemistry, ecology, and more
 :::
 
 ::: column
-### Education
+### Skills
 
--   PhD in Biology, 2020 Tufts University
--   MS in Ecology, Evolution, and Conservation Biology, 2010 University of Illinois at Urbana-Champaign
--   BA in Biology, 2006 Whitman College
+- R (expert)
+- R package development (expert)
+- R-spatial (intermediate)
+- Quarto (expert)
+- Shiny (intermediate)
+- Python (beginner)
+- Statistics (frequentist, expert)
 :::
 :::::
